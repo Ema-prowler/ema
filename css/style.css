@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+}
+
+.contenedor-padre {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contendedor-1 {
+  border: solid white;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-2 {
+  display: flex;
+  border: solid white;
+}
+
+.imagen-perfil {
+  border-radius: 100%;
+  width: 350px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.lista {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.lista li {
+  font-size: 50px;
+  display: inline;
+  margin-right: 10px;
+}
+
+.lista .fa-brands,
+.lista .fa-regular {
+  color: red;
+}
