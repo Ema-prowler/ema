@@ -76,3 +76,21 @@ body {
 .lista .fa-regular:hover {
   color: turquoise;
 }
+
+footer {
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  border: solid red;
+}
+footer li {
+  display: inline;
+  text-align: left;
+  padding: 5px;
+  font-size: 40px;
+}
+
+.iconos {
+  transition: color 0.5s ease; /* Transición suave de color durante 0.5 segundos */
+}
